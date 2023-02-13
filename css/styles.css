@@ -1,0 +1,91 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(68, 68, 189, 1) 67%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  /*head container*/
+}
+.navbar {
+  background-color: #ffff;
+  opacity: 0.6;
+}
+#header {
+  height: 200px;
+  width: 100%;
+  margin: auto;
+  font-family: "Rubik", sans-serif;
+  color: azure;
+}
+.header-container {
+  margin-top: 30px;
+  width: 50%;
+}
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: azure;
+}
+.ptext {
+  margin-top: 20px;
+}
+.profile-picture {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 79%;
+}
+/*middle contents*/
+#middle-container {
+  color: black;
+  margin: 100px auto;
+  width: 95%;
+}
+.middle-contents {
+  text-align: center;
+  background-color: #ffff;
+  opacity: 0.6;
+}
+.icons-items {
+  color: #4444bd;
+  padding: 10px;
+}
+
+/*table styling*/
+.table-center {
+  text-align: center;
+}
+.table-contents,
+td {
+  color: #ffff;
+  margin: 10px auto;
+  border: solid #4444bd 1px;
+}
+td {
+  padding: 10px 20px 10px;
+}
+/*table styling end*/
+
+/*Footer*/
+#footer {
+  background-color: #ffff;
+  opacity: 0.6;
+  text-align: center;
+}
+.fa-instagram:hover {
+  margin: auto 10px;
+}
+.fa-facebook:hover {
+  margin: auto 10px;
+}
+.fa-linkedin:hover {
+  margin: auto 10px;
+}
+.fa-envelope:hover {
+  margin: auto 10px;
+}
+
+/*media quiries*/
