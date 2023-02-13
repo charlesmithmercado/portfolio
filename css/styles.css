@@ -89,7 +89,7 @@ td {
 }
 
 /*media quiries*/
-@media (max-width: 1100px) {
+@media (max-width: 1600px) {
   .profile-picture {
     margin: auto;
     float: left;
